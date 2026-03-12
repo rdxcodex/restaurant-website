@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urban Spice | Indian Vegetarian Restaurant</title>
+  <meta
+    name="description"
+    content="Urban Spice serves authentic Indian vegetarian cuisine with fresh ingredients, elegant ambiance, and a modern dining experience."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Marcellus&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Urban Spice home">
+        <span class="brand-mark">US</span>
+        <span class="brand-text">
+          <strong>Urban Spice</strong>
+          <small>Vegetarian Kitchen</small>
+        </span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        id="navToggle"
+        type="button"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+        aria-controls="navMenu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navMenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <!-- Replace with a high-resolution hero image: images/restaurant-interior.jpg -->
+      <div class="hero-backdrop" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">Fine vegetarian dining in the city</p>
+          <h1>Urban Spice</h1>
+          <p class="hero-tagline">Authentic Indian Vegetarian Cuisine</p>
+          <p class="hero-text">
+            Crafted with seasonal produce, aromatic spices, and timeless recipes,
+            Urban Spice brings a polished Indian vegetarian experience to every table.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#menu">View Menu</a>
+            <a class="btn btn-secondary" href="#contact">Book a Table</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <span>Chef's Selection</span>
+          <h2>Fresh ingredients. Bold Indian flavors. Elevated presentation.</h2>
+          <p>
+            From smoky tandoori classics to comforting thalis and crisp dosas,
+            every dish is prepared with care for modern vegetarian dining.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">About Urban Spice</p>
+          <h2>A warm, contemporary take on Indian vegetarian dining.</h2>
+        </div>
+
+        <div class="about-grid">
+          <figure class="about-media">
+            <!-- Replace with your restaurant or kitchen image: images/restaurant-interior.jpg -->
+            <img src="images/restaurant-interior.jpg" alt="Urban Spice restaurant interior">
+          </figure>
+
+          <div class="about-content">
+            <p>
+              Urban Spice celebrates the depth of Indian vegetarian cuisine through
+              thoughtfully sourced ingredients, refined cooking, and a calm, premium atmosphere.
+              Our menu blends regional inspiration with a modern restaurant experience.
+            </p>
+            <p>
+              We focus on fresh vegetables, house-ground spices, slow-simmered sauces, and
+              balanced flavors that feel both authentic and memorable. Whether you are joining
+              us for lunch, dinner, or a family gathering, every plate is designed to feel generous and vibrant.
+            </p>
+
+            <div class="about-highlights">
+              <div>
+                <strong>Fresh Daily</strong>
+                <span>Seasonal produce and hand-prepped ingredients.</span>
+              </div>
+              <div>
+                <strong>Indian Heritage</strong>
+                <span>Traditional flavors presented with a modern touch.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section menu" id="menu">
+      <div class="container">
+        <div class="section-heading section-heading-center">
+          <p class="eyebrow">Signature Menu</p>
+          <h2>Vegetarian favorites prepared for a polished dining experience.</h2>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card">
+            <!-- Replace with the actual dish image: images/paneer-butter-masala.jpg -->
+            <img src="images/paneer-butter-masala.jpg" alt="Paneer Butter Masala">
+            <div class="menu-card-content">
+              <div class="menu-card-header">
+                <h3>Paneer Butter Masala</h3>
+                <span>Rs. 320</span>
+              </div>
+              <p>Soft paneer cubes in a rich tomato-butter gravy finished with cream and kasuri methi.</p>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <!-- Replace with the actual dish image: images/veg-biryani.jpg -->
+            <img src="images/veg-biryani.jpg" alt="Veg Biryani">
+            <div class="menu-card-content">
+              <div class="menu-card-header">
+                <h3>Veg Biryani</h3>
+                <span>Rs. 290</span>
+              </div>
+              <p>Fragrant basmati rice layered with vegetables, saffron, herbs, and slow-cooked spices.</p>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <!-- Replace with the actual dish image: images/masala-dosa.jpg -->
+            <img src="images/masala-dosa.jpg" alt="Masala Dosa">
+            <div class="menu-card-content">
+              <div class="menu-card-header">
+                <h3>Masala Dosa</h3>
+                <span>Rs. 220</span>
+              </div>
+              <p>Crisp golden dosa filled with spiced potato masala, served with chutneys and sambar.</p>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <!-- Replace with the actual dish image: images/veg-thali.jpg -->
+            <img src="images/veg-thali.jpg" alt="Veg Thali">
+            <div class="menu-card-content">
+              <div class="menu-card-header">
+                <h3>Veg Thali</h3>
+                <span>Rs. 360</span>
+              </div>
+              <p>A complete platter with seasonal sabzi, dal, roti, rice, pickle, salad, and dessert.</p>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <!-- Replace with the actual dish image: images/paneer-tikka.jpg -->
+            <img src="images/paneer-tikka.jpg" alt="Paneer Tikka">
+            <div class="menu-card-content">
+              <div class="menu-card-header">
+                <h3>Paneer Tikka</h3>
+                <span>Rs. 340</span>
+              </div>
+              <p>Chargrilled paneer cubes marinated in yogurt, spices, and herbs with mint chutney.</p>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <!-- Replace with the actual dish image: images/margherita-pizza.jpg -->
+            <img src="images/margherita-pizza.jpg" alt="Margherita Pizza">
+            <div class="menu-card-content">
+              <div class="menu-card-header">
+                <h3>Margherita Pizza</h3>
+                <span>Rs. 310</span>
+              </div>
+              <p>Wood-fired pizza with tomato sauce, mozzarella, basil, and a crisp artisanal crust.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <div class="section-heading section-heading-center">
+          <p class="eyebrow">Gallery</p>
+          <h2>Plates, spaces, and details that define the Urban Spice experience.</h2>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item">
+            <!-- Replace with gallery image: images/gallery-1.jpg -->
+            <img src="images/gallery-1.jpg" alt="Indian vegetarian dish plated elegantly">
+          </figure>
+          <figure class="gallery-item">
+            <!-- Replace with gallery image: images/gallery-2.jpg -->
+            <img src="images/gallery-2.jpg" alt="Fresh vegetarian starter served on a table">
+          </figure>
+          <figure class="gallery-item">
+            <!-- Replace with gallery image: images/gallery-3.jpg -->
+            <img src="images/gallery-3.jpg" alt="Assorted Indian vegetarian curries">
+          </figure>
+          <figure class="gallery-item">
+            <!-- Replace with gallery image: images/gallery-4.jpg -->
+            <img src="images/gallery-4.jpg" alt="Restaurant seating and dining atmosphere">
+          </figure>
+          <figure class="gallery-item">
+            <!-- Replace with gallery image: images/gallery-5.jpg -->
+            <img src="images/gallery-5.jpg" alt="South Indian dosa presentation">
+          </figure>
+          <figure class="gallery-item">
+            <!-- Replace with gallery image: images/gallery-6.jpg -->
+            <img src="images/gallery-6.jpg" alt="Vegetarian biryani and accompaniments">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-heading section-heading-center">
+          <p class="eyebrow">Testimonials</p>
+          <h2>Guests return for the flavor, the service, and the atmosphere.</h2>
+        </div>
+
+        <div class="testimonial-grid">
+          <article class="testimonial-card">
+            <p>
+              “The Paneer Butter Masala was beautifully balanced and the room felt calm and upscale.
+              It is one of the best vegetarian dining experiences we have had in the city.”
+            </p>
+            <h3>Priya S.</h3>
+          </article>
+
+          <article class="testimonial-card">
+            <p>
+              “Urban Spice gets every detail right, from presentation to service.
+              The Veg Thali was generous, fresh, and full of authentic flavor.”
+            </p>
+            <h3>Rahul M.</h3>
+          </article>
+
+          <article class="testimonial-card">
+            <p>
+              “A polished restaurant that still feels warm and welcoming.
+              The dosa was crisp, the biryani was aromatic, and we loved the ambiance.”
+            </p>
+            <h3>Ananya K.</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-content">
+          <div class="section-heading">
+            <p class="eyebrow">Contact</p>
+            <h2>Visit Urban Spice for refined Indian vegetarian dining.</h2>
+          </div>
+
+          <div class="contact-list">
+            <div class="contact-card">
+              <h3>Address</h3>
+              <p>42 Green Park Avenue, Bengaluru, Karnataka 560001</p>
+            </div>
+            <div class="contact-card">
+              <h3>Phone</h3>
+              <p><a href="tel:+919876543210">+91 98765 43210</a></p>
+            </div>
+            <div class="contact-card">
+              <h3>Email</h3>
+              <p><a href="mailto:hello@urbanspice.in">hello@urbanspice.in</a></p>
+            </div>
+          </div>
+
+          <a
+            class="btn btn-whatsapp"
+            href="https://wa.me/919876543210?text=Hello%20Urban%20Spice%2C%20I%20would%20like%20to%20make%20a%20reservation."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Chat on WhatsApp
+          </a>
+        </div>
+
+        <div class="map-card">
+          <iframe
+            title="Urban Spice location on Google Maps"
+            src="https://www.google.com/maps?q=Bengaluru%2C%20Karnataka&z=14&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#home">
+          <span class="brand-mark">US</span>
+          <span class="brand-text">
+            <strong>Urban Spice</strong>
+            <small>Vegetarian Kitchen</small>
+          </span>
+        </a>
+        <p class="footer-copy">
+          Contemporary Indian vegetarian cuisine served with freshness, elegance, and heart.
+        </p>
+      </div>
+
+      <div>
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Opening Hours</h3>
+        <ul class="footer-hours">
+          <li>Mon - Fri: 12:00 PM - 10:30 PM</li>
+          <li>Sat - Sun: 11:00 AM - 11:00 PM</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Follow Us</h3>
+        <div class="social-links" aria-label="Social media links">
+          <a href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 1.8A3.7 3.7 0 0 0 3.8 7.5v9a3.7 3.7 0 0 0 3.7 3.7h9a3.7 3.7 0 0 0 3.7-3.7v-9a3.7 3.7 0 0 0-3.7-3.7Zm9.55 1.35a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.8A3.2 3.2 0 1 0 12 15.2 3.2 3.2 0 0 0 12 8.8Z"></path>
+            </svg>
+          </a>
+          <a href="#" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M13.2 22v-8.2h2.77l.42-3.2H13.2V8.56c0-.93.27-1.56 1.6-1.56h1.71V4.14A22.4 22.4 0 0 0 14 4c-2.46 0-4.15 1.5-4.15 4.25v2.35H7v3.2h2.85V22Z"></path>
+            </svg>
+          </a>
+          <a href="#" aria-label="X">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M18.9 2H21l-4.58 5.24L21.8 22H16.5l-4.15-5.43L7.6 22H5.5l4.9-5.6L2.2 2h5.43l3.75 4.96ZM18 20.38h1.47L6.84 3.53H5.26Z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Urban Spice. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
